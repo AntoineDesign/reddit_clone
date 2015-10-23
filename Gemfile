@@ -28,6 +28,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.5.1'
 # Use Unicorn as the app server
 # gem 'unicorn'
+gem 'acts_as_votable', '~> 0.10.0'
+
 gem 'devise', '~> 3.5', '>= 3.5.2'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
