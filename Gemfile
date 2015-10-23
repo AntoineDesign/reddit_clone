@@ -29,11 +29,8 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.5.1'
 # Use Unicorn as the app server
 # gem 'unicorn'
 gem 'acts_as_votable', '~> 0.10.0'
-
+gem 'simple_form', '~> 3.2'
 gem 'devise', '~> 3.5', '>= 3.5.2'
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
